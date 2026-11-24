@@ -1,0 +1,10 @@
+Method 'test5' had an error in line 1, 'Read(SpectraMax)'
+Application error
+
+: ERROR: Start Read: SoftMax Pro did not start the read: ERROR;Section is locked, cannot perform any operation. Please unlock the section and then perform the operation.
+
+Method stack trace:
+ test5.met[1] 
+
+Application stack trace:
+    at MDSpectraMax.Commands.MMDocumentCmdBase.Fail(IMMRuntimeObject obj, String message)     at MDSpectraMax.Commands.MMStartReadCmd.Command(IMMRuntimeObject obj, IMMObjDict processStepData)      at MDSpectraMax.Commands.MMCombinedCmdBase.Command(IMMRuntimeObject obj, IMMObjDict processStepData)       at MMHardware.Core.Commands.MMHardwareComponentCommandBase`1.Execute(IMMRuntimeObject obj, IMMObjDict processStepData)        at MethodManager.Core.Domain.MMMethod.ExecuteStep(Int32 index, IMMRuntimeObject runtimeObject, IMMObjDict processStepData)         at MethodManager.Core.Process.MMProcessBase`1.RunProcess(Object obj)
