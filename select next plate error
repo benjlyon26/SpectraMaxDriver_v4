@@ -1,0 +1,10 @@
+Method 'test5' had an error in line 7, 'Select Plate(SpectraMax)'
+Application error
+
+: ERROR: Select Plate: SoftMax Pro could not select the next plate: ERROR;Next plate not selected. The current selection was not a plate, or another plate was not found in the experiment section.
+
+Method stack trace:
+ test5.met[7] 
+
+Application stack trace:
+    at MDSpectraMax.Commands.MMDocumentCmdBase.Fail(IMMRuntimeObject obj, String message)     at MDSpectraMax.Commands.MMSelectPlateCmd.Command(IMMRuntimeObject obj, IMMObjDict processStepData)      at MMHardware.Core.Commands.MMHardwareComponentCommandBase`1.Execute(IMMRuntimeObject obj, IMMObjDict processStepData)       at MethodManager.Core.Domain.MMMethod.ExecuteStep(Int32 index, IMMRuntimeObject runtimeObject, IMMObjDict processStepData)        at MethodManager.Core.Process.MMProcessBase`1.RunProcess(Object obj)
