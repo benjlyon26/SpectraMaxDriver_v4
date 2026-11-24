@@ -1,1 +1,2 @@
 Unblock-File "C:\Program Files (x86)\Dynamic Devices\MethodManager4\Libraries\Devices\MDSpectraMax.dll"
+Unblock-File "C:\Program Files (x86)\Dynamic Devices\MethodManager4\Libraries\Servers\MDSpectraMax\MDSpectraMaxServer.exe"
